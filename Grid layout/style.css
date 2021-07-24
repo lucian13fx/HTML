@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item-a{grid-area: header;
+    height: 100px;
+    background-color: rgb(240, 229, 215);
+}
+.item-b{grid-area: menu;
+    background-color: aqua;
+}
+.item-c{grid-area: main;}
+.item-d{grid-area: right;}
+.item-e{grid-area: footer;}
+
+.grid-container {
+    height: 100vh;
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  background-color: #2196f3;
+}
