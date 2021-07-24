@@ -1,0 +1,51 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    color: #03664A;
+    margin: 0;
+}
+
+p{
+    font-weight: 500;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #03664A;
+  }
+  .menu{
+      margin-right: 50px;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    text-decoration: underline;
+  }
+  
+  .topnav a.active {
+    text-decoration: underline;
+    color: white;
+  }
+
+  hr{
+      color: #03664A;
+
+  }
+  .container{
+     text-align: center;
+  }
+  .container h1{
+    color: white;
+    background-color: cadetblue;
+  }
+
+  .container p{
+    border: 2px solid black;
+  }

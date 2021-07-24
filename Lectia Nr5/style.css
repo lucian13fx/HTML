@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+body {
+ /* background-image: url(./colorful-diagonal-lines-pattern-free-vector.png);*/
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: rgb(0, 99, 180);
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+}
+nav ul {
+  margin: 0;
+  list-style: none;
+  display: inline-flex;
+  padding: 0 0;
+  margin-left: 30px;
+}
+nav ul li {
+  padding: 18px 10px;
+}
+nav ul li .icon{
+  display: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 18px;
+  background-color: rgb(0, 90, 163);
+  border-radius: 15px;
+}
+nav ul li a:hover {
+  background-color: rgb(0, 79, 143);
+}
+#para {
+  background-color: rgb(228, 228, 228);
+  height: fit-content;
+  margin: 30px 10px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+#para h2 {
+  margin: 0;
+  font-family: 'Zilla Slab', serif;
+}
+#para a{
+  text-decoration: none;
+  background-color: rgb(0, 90, 163);
+  color: white;
+  padding: 7px 15px;
+  border-radius: 15px;
+}
+#para a:hover{
+  background-color: rgb(0, 79, 143);
+}
+#para .img-cont img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.photos{
+  background-color: white;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.photos .photo{
+  margin-right: 20px;
+  
+}
+.photos .photo img{
+  height: 220px;
+  
+}
+
+.break-line{
+  height: 1px;
+  background: linear-gradient(90deg,  rgb(0, 99, 180) 35%, rgba(0,212,255,1) 100%);
+}
+
+.footer{
+  height: 200px;
+ background:  rgba(228, 228, 228,1);
+}
+.section h2{
+  padding-left: 40px;
+    background: linear-gradient(90deg,  rgba(228, 228, 228,1) 10%, rgba(228, 228, 228,0) 100%);
+    padding: 20px 40px;
+    margin-top: 0;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+/*rgba(0,212,255,0.1) 35%*/
+.footer-container{
+  display: flex;
+  justify-content:space-around;
+  padding: 50px 0;
+  font-size: 14px;
+  background:  rgba(228, 228, 228,1);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+.footer-container .adress a{
+  display: block;
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  padding: 5px;
+ 
+}
+.footer-container .adress a:hover{
+  text-decoration: underline;
+}
+.footer-container .links a{
+  display: block;
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  padding: 5px;
+}
+.footer-container .links a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 800px){
+       .container{
+         display: block;
+       }
+        .photos{
+         display: block;
+        }
+        .photos .photo{
+          margin-right: 0;
+        }
+        .photos .photo img{
+          width: 100%;
+          height: auto;
+        }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  nav li:not(:first-child, :last-child)
+  {display: none;}
+
+ nav ul li .icon{
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+   nav.responsive{
+     position: relative;
+   }
+   nav.responsive ul{
+     display: block;
+   }
+   nav.responsive ul li {
+     display: block; 
+   }
+
+}
+
+@media screen and (max-width: 400px){
+   nav ul {
+  margin-left: 5px;
+}
+.container {
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+ nav ul li .icon{
+    right: 15px;
+    top: 10px;
+}
+.photos{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  .footer-container{
+  display: block;
+  justify-content:center;
+  padding-top: 50px;
+  padding-left: 10px;
+ 
+}
+.section h2{
+  padding-left: 15px;
+
+}
+}

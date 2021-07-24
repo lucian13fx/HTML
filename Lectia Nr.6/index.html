@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Lectia Nr.6</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="menu">
+          <a href="#" class="active" id="#top">Home</a>
+          <a href="#">News</a>
+          <a href="#">Contacts</a>
+        </div>
+
+        <div class="logo">
+          <a href="#">The image box <i class="bi bi-box-seam"></i></a>
+        </div>
+      </div>
+    </nav>
+    <div class="image-container">
+        <h3>Image Container <span style="color: rgb(167, 167, 167); font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px;"> display: flex</span></h3>
+        <div class="gallery">
+            <div>
+            <img src="./img1.jpg" alt="img1">
+            </div>
+            <div>
+            <img src="./img2.jpg" alt="img2">
+            </div>
+            <div>
+            <img src="./img3.jpg" alt="img3">
+            </div>
+            <div>
+            <img src="./img4.jpg" alt="img4">
+            </div>
+            <div>
+            <video src="./vid1.mp4" autoplay loop controls></video>
+            </div>
+            <div>
+            <img src="./img5.jpg" alt="img5">
+            </div>
+            <div>
+            <img src="./img6.jpg" alt="img6">
+            </div>
+            <div>
+                <img src="./img7.jpg" alt="img7">
+            </div>
+            <div>
+                <img src="./img8.jpg" alt="img8">
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <h3>Image Container <span style="color: rgb(167, 167, 167); font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px;"> display: flex</span></h3>
+
+        <div class="column-container">
+        <div class="column">
+           <div>
+              <img src="./img7.jpg" alt="">
+           </div>
+           <div>
+               <img src="./img6.jpg" alt="">
+
+           </div>
+           <div>
+              <img src="./img5.jpg" alt="">
+           </div>
+        </div>
+        <div class="column">
+               <div>
+              <img src="./img4.jpg" alt="">
+           </div>
+           <div>
+               <img src="./img3.jpg" alt="">
+
+           </div>
+           <div>
+              <img src="./img2.jpg" alt="">
+           </div>
+        </div>
+        <div class="column">
+               <div>
+              <img src="./img1.jpg" alt="">
+           </div>
+           <div>
+               <img src="./img8.jpg" alt="">
+
+           </div>
+           <div>
+              <img src="./img5.jpg" alt="">
+           </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="scroll">
+        <a onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-short"></i><br> Top</a>
+</div>
+        <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+  </body>
+</html>

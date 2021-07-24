@@ -1,0 +1,305 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+nav{
+    background-color: #D6EFFF;
+}
+
+nav ul{
+    margin: 0 8vw;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+   padding: 15px 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 20px 20px;
+}
+
+nav ul li a:hover, .active{
+    background-color: #C6E9FF;
+    border-bottom: 1px solid #99d8ff;
+}
+.container{
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1px;
+}
+
+.container .logo{
+    padding: 0px;
+    margin-right: 20vw;
+}
+
+.container .logo h4{
+    padding: 0;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.bodyyy{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bodyyy .list-container{
+    display: flex;
+    justify-content: space-between;
+}
+.container .logo h4:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.music-list{
+    margin: 40px 8vw;
+    padding: 0 40px;
+}
+.music-list h2{
+    font-size: 25px;
+}
+.music-list li{
+    font-size: 15px;
+}
+
+.album-img{
+    padding: 0px;
+    margin-right: 15vw;
+    margin-top: 20px;
+}
+
+.album-img img{
+    margin: 60px 15px;
+}
+
+.album-img h2{
+    font-size: 25px;
+}
+.album-img li{
+    font-size: 15px;
+}
+
+.list-container{
+    background-color: rgb(231, 231, 231);
+    margin: 40px 12vw;
+    margin-right: 12vw;
+    border: 1px solid #cfcfcf;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #cfcfcf;
+}
+
+.footer-container .social ul{
+    margin-left: 10vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    list-style: none;
+    display: flex;
+}
+
+.footer-container .social ul li{
+    margin-right: 20px;
+}
+
+.footer-container .social ul li a{
+    font-size: 20px;
+    color: #7bccff;
+}
+.footer-container .social ul li a:hover{
+    color: #8b9297;
+}
+
+.footer-container .footer-links ul{
+    margin-right: 8vw;
+     margin-top: 50px;
+     margin-bottom: 50px;
+    list-style: none;
+    display: flex;
+    margin-right: 12vw;
+}
+
+.footer-container .footer-links ul li{
+    margin-right: 20px;
+}
+
+.footer-container .footer-links ul li a{
+    text-decoration: none;
+    color: #5cc0ff;
+}
+
+.footer-container .footer-links ul li a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.copyright p{
+    color: rgb(82, 82, 82);
+}
+
+.list-info{
+    margin: 50px 8vw;
+    margin-right: 12vw;
+    padding-left: 8vwpx;
+}
+
+.list-info p{
+    font-size: 15px;
+}
+caption{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+table{
+    width: 80%;
+    margin-bottom: 50px;
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border: 1px solid #cfcfcf;
+}
+
+td, th{
+    padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+.song-name{
+    font-weight: bold;
+}
+caption{
+    font-size: 20px;
+}
+
+.on-top{
+    position: absolute;
+    z-index: 4;
+}
+
+.text-container{
+    background-color:rgb(231, 231, 231);
+    display: flex;
+    margin-top: 50px;
+    margin-left: 11vw;
+    margin-right: 12vw;
+     border: 1px solid #cfcfcf;
+     padding: 2rem;
+     border-radius: 2rem;
+}
+.text-container .info{
+    padding: 12px 30px;
+}
+.text-container .info h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.text-container .image-contain img{
+    height: 300px;
+}
+
+.sumfin{
+    height: 200px;
+    background-image: url(./Action-Art-Making-Strategies_-Visual-Art-Music-and-Movement.jpg);
+    margin-top: 50px;
+}
+.textontop{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 60px;
+    margin-left: 11vw;
+    padding-left: 30px;
+}
+
+.info a{
+    text-decoration: none;
+    background-color: #a8deff;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid #8cd1fc;
+}
+.info a:hover{
+     background-color: #8cd1fc;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.media-container{
+    background-color: rgb(231, 231, 231);
+    margin-left: 12vw;
+    width:fit-content;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input{
+    margin-top: 20px;
+    padding: 5px;
+}
+
+form{
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+form h2{
+    color: black;
+}
+
+.input-style{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.submit-style{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+}
+.submit-style:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.back-to{
+    margin-left: 12vw;
+    margin-bottom: 0;
+}
+.back-to a{
+    text-decoration: none;
+    color: black;
+}
+.back-to i:hover{
+    color: blue;
+}

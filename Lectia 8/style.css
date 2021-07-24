@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --text-color:rgb(255, 0, 0);
+}
+h1{
+    background-color: antiquewhite;
+}
+body{
+    background-color: aquamarine;
+    color: var(--text-color);
+}
+
+p{
+    background-color: bisque;
+}

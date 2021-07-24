@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: cornsilk;
+}
+
+.left{
+    background-color: #28c2ff;
+    padding: 1px;
+    float: left;
+    width: 20%;
+}
+
+
+.main{
+    background-color: rgb(201, 201, 201);
+    padding: 1px;
+    float: left;
+    width: 60%;
+}
+
+.right{
+    background-color: rgb(233, 121, 255);
+    padding: 1px;
+    float: left;
+    width: 20%;
+}
+
+@media  screen and (max-width: 800px) {
+    .left, .main, .right{
+        width: 100%;
+    }
+}
